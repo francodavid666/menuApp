@@ -27,10 +27,10 @@ header{
 }
 
 .titulo-usuario{
-    font-size: 20px;
+    font-size: 30px;
 }
 .container-button_menu{
-width: 30%;
+width: 20%;
 padding: 5px;
 display: flex;
 align-items: center;

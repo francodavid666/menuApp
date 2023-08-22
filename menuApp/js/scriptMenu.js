@@ -109,7 +109,7 @@ else{
 })
 
 
-
+menuDesplegable.style.display='none'
 
 function openMenu(){
   menuDesplegable.style.display='block'
@@ -118,8 +118,7 @@ function openMenu(){
 }
  
 function closeMenu(){
-  
-  menuDesplegable.style.left='100%'
+
   menuDesplegable.style.display='none'
 
 }
