@@ -29,7 +29,7 @@ redondoTheme.addEventListener('click',()=>{
 
 function moverFuncion(){
      /*TEMA EN NEGRO*/ 
-    redondoTheme.style.left= '235px'
+    redondoTheme.style.left= '70%'
     redondoTheme.style.transition= '2s'
     redondoTheme.style.backgroundColor='rgb(146, 146, 146)'
 
@@ -64,8 +64,8 @@ function moverFuncion(){
 
 console.log(redondoTheme.offsetLeft)
         /*TEMA EN BLANCO*/ 
-    if(redondoTheme.offsetLeft == 235){
-        redondoTheme.style.left= '175px'
+    if(redondoTheme.offsetLeft == 209){
+        redondoTheme.style.left= '51%'
         redondoTheme.style.backgroundColor='white'
 
         buttonTheme.style.backgroundColor='rgb(146, 146, 146)'
