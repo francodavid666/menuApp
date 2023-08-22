@@ -108,19 +108,19 @@ else{
 
 })
 
-menuDesplegable.style.display='none'
+
+
 
 function openMenu(){
   menuDesplegable.style.display='block'
+  menuDesplegable.style.left='26%'
 
-  menuDesplegable.style.right='3%'
-  menuDesplegable.style.transition='1s'
 }
-
+ 
 function closeMenu(){
   
-  menuDesplegable.style.left='600px'
+  menuDesplegable.style.left='100%'
   menuDesplegable.style.display='none'
-  menuDesplegable.style.transition='1s'
+
 }
 

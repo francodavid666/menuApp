@@ -14,7 +14,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+   
     
     height: 60px;
     
@@ -24,11 +24,10 @@ header{
     
     width: 80%;
     padding: 5px;
-   
 }
 
 .titulo-usuario{
-    font-size: 13px;
+    font-size: 20px;
 }
 .container-button_menu{
 
@@ -36,7 +35,6 @@ padding: 5px;
 display: flex;
 align-items: center;
 justify-content:flex-end;
-
 }
 
 /*form buscqueda*/
@@ -185,7 +183,7 @@ background-color: rgb(231, 231, 231);
 }
 
 .titulo-populares{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .ver-todos{
@@ -197,7 +195,7 @@ background-color: rgb(231, 231, 231);
    display: flex;
    align-items: center;
    justify-content: center;
-    
+    width: 100%;
 }
 .container-product{
     width: 90%;
@@ -345,14 +343,13 @@ footer{
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.75);
 position: absolute;
 top:80px;
-
+left: 100%;
 width: 270px;
 height: 200px;
-
-display: flex;
 justify-content: flex-start;
 flex-direction: column;
 border-radius: 10px;
+display: none;
  }
 
 .menu-desplegable{
