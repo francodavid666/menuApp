@@ -209,7 +209,7 @@ background-color: rgb(231, 231, 231);
         1fr
     )
    );
-   gap: 15px;
+   gap: 30px;
  
 }
 
@@ -428,7 +428,7 @@ border-radius: 10px;
     border-radius: 20px;
     position: absolute;
     top: 51px;
-    left: 120px;
+    left: 175px;
     cursor: pointer;
 }
 

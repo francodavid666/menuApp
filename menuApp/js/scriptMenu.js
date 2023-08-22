@@ -29,8 +29,8 @@ redondoTheme.addEventListener('click',()=>{
 
 function moverFuncion(){
      /*TEMA EN NEGRO*/ 
-    redondoTheme.style.left= '158px'
-    redondoTheme.style.transition= '1s'
+    redondoTheme.style.left= '235px'
+    redondoTheme.style.transition= '2s'
     redondoTheme.style.backgroundColor='rgb(146, 146, 146)'
 
     /*button theme*/
@@ -62,16 +62,16 @@ function moverFuncion(){
    
       menuDesplegable.style.backgroundColor='#272829'
 
-
+console.log(redondoTheme.offsetLeft)
         /*TEMA EN BLANCO*/ 
-    if(redondoTheme.offsetLeft == 158){
-        redondoTheme.style.left= '125px'
+    if(redondoTheme.offsetLeft == 235){
+        redondoTheme.style.left= '175px'
         redondoTheme.style.backgroundColor='white'
 
         buttonTheme.style.backgroundColor='rgb(146, 146, 146)'
             /*body*/
         body.style.backgroundColor='#F9F5F6' 
-        body.style.transition= '1s'
+        body.style.transition= '2s'
         body.style.color= 'black'
          /*containerOfertas */
     containerOfertas.style.backgroundColor = '#F9F5F6' 
