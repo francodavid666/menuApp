@@ -345,9 +345,10 @@ footer{
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.75);
 position: absolute;
 top:80px;
-left: 500px;
-width: 80%;
+
+width: 270px;
 height: 200px;
+
 display: flex;
 justify-content: flex-start;
 flex-direction: column;

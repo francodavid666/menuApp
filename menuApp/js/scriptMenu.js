@@ -29,7 +29,7 @@ redondoTheme.addEventListener('click',()=>{
 
 function moverFuncion(){
      /*TEMA EN NEGRO*/ 
-    redondoTheme.style.left= '70%'
+    redondoTheme.style.left= '72%'
     redondoTheme.style.transition= '2s'
     redondoTheme.style.backgroundColor='rgb(146, 146, 146)'
 
@@ -64,7 +64,7 @@ function moverFuncion(){
 
 console.log(redondoTheme.offsetLeft)
         /*TEMA EN BLANCO*/ 
-    if(redondoTheme.offsetLeft == 209){
+    if(redondoTheme.offsetLeft == 194){
         redondoTheme.style.left= '51%'
         redondoTheme.style.backgroundColor='white'
 
@@ -112,7 +112,8 @@ menuDesplegable.style.display='none'
 
 function openMenu(){
   menuDesplegable.style.display='block'
-  menuDesplegable.style.left='60px'
+
+  menuDesplegable.style.right='3%'
   menuDesplegable.style.transition='1s'
 }
 
