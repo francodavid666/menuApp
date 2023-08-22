@@ -30,11 +30,12 @@ header{
     font-size: 20px;
 }
 .container-button_menu{
-
+width: 30%;
 padding: 5px;
 display: flex;
 align-items: center;
-justify-content:flex-end;
+justify-content:space-between;
+
 }
 
 /*form buscqueda*/
@@ -349,7 +350,6 @@ height: 200px;
 justify-content: flex-start;
 flex-direction: column;
 border-radius: 10px;
-display: none;
  }
 
 .menu-desplegable{
