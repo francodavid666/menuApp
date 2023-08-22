@@ -193,9 +193,15 @@ background-color: rgb(231, 231, 231);
     text-decoration: none;
     font-size: 12px;
 }
-
-
+.section-product{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
 .container-product{
+    background-color: red;
+    width: 90%;
    display: grid;
    grid-template-columns: repeat(
     auto-fit,
@@ -204,7 +210,8 @@ background-color: rgb(231, 231, 231);
         1fr
     )
    );
-   gap: 10px;
+   gap: 15px;
+ 
 }
 
 .card-product{
@@ -216,7 +223,7 @@ background-color: rgb(231, 231, 231);
     width: 130px;
     height: 200px;
     border-radius: 10px;
-    margin: 1px;
+    margin: auto;
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.75);
 }
 
